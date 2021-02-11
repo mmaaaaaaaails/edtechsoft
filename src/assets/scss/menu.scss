@@ -1,0 +1,45 @@
+.menu {
+
+    width: 695px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 27px;
+    margin-right: 99px;
+
+    &__lists {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 120%;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    &__item {
+        height: 34px;
+        text-align: center;
+    }
+
+    &__link {
+        color: $light-color;
+        text-decoration: none;
+    }
+
+    &__date {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 120%;
+        text-align: center;
+        color: #C9C3F3;
+    }
+
+    &__number {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 120%;
+        text-align: center;
+        color: $main-color;
+    }
+}

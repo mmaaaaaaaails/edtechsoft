@@ -1,0 +1,68 @@
+@import './color.scss';
+
+.header {
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__logotype {
+        display: flex;
+        margin-right: 87px;
+        cursor: pointer;
+    }
+
+    &__logo {
+        height: 56px;
+        width: 57px;
+        background-image: url(/assets/img/logo.svg);
+        background-size: cover;
+        display: inline-block;
+        margin-top: 19px;
+        margin-right: 8px;
+
+        &:hover {
+            animation: swing .9s ease;
+            animation-iteration-count: 1;
+            cursor: pointer;
+        }
+    }
+
+    &__title {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        color: $light-color;
+        margin-top: 29px;
+    }
+
+    &__button {
+        width: 161px;
+        height: 50px;
+        margin-top: 19px;
+        background: $light-color;
+        border: 1px solid $main-color;
+        box-sizing: border-box;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 123%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 0.01em;
+        color: $dark-color;
+        transition: all 0.5s ease-in;
+        outline: none;
+
+        &:hover {
+            background: $main-color;
+            cursor: pointer;
+            transition: all 0.5s ease-in;
+        }
+    }
+
+}

@@ -1,0 +1,193 @@
+@media only screen and (max-width: 1299px) {
+
+    .header {
+
+        &__logotype {
+            margin-right: 0;
+        }
+    }
+
+    .menu {
+        margin-right: 0;
+    }
+
+    .test {
+
+        &__block {
+            justify-content: center;
+        }
+
+        &__title {
+            max-width: 100%;
+        }
+
+        &__square {
+            visibility: hidden;
+        }
+
+        &__rhomb {
+            display: none;
+        }
+
+        &__42 {
+            visibility: hidden;
+        }
+
+        &__43 {
+            visibility: hidden;
+        }
+
+        &__picture {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .price {
+
+        &__cross {
+            display: none;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 958px) {
+
+    .header {
+        &__button {
+            position: absolute;
+            right: 50px;
+        }
+    }
+
+    .menu {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .header {
+        &__button {
+            position: absolute;
+            right: 50px;
+        }
+    }
+
+    .test {
+
+        &__students {
+            width: 100%;
+        }
+
+        &__target {
+            width: 100%;
+            left: 0;
+        }
+
+    }
+
+    .info {
+
+        &__price {
+            width: 100%;
+            margin-right: 0;
+        }
+    }
+
+    .price {
+
+        &__circle {
+            position: absolute;
+            top: -30px;
+            left: 280px;
+        }
+
+        &__button {
+            display: flex;
+            justify-content: center;
+        }
+
+        &__bid {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 433px) {
+
+    .wrapper {
+        padding: 0 8px !important;
+    }
+
+    .header {
+
+        &__button {
+            width: 151px;
+            height: 40px;
+            right: 15px;
+        }
+
+        &__title {
+            font-size: 18px;
+        }
+    }
+
+    .menu {
+
+        &__date {
+            text-align: inherit;
+        }
+
+        &__lists {
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        &__item {
+            width: 50%;
+
+            &:nth-child(1) {
+                margin-bottom: 24px;
+            }
+        }
+    }
+
+    .test {
+
+        &__target {
+            left: 0px;
+        }
+
+        &__title {
+            font-size: 24px;
+            text-align: center;
+        }
+    }
+
+    .info {
+
+        &__price {
+            margin-right: 0;
+        }
+    }
+
+    .price {
+
+        &__circle {
+            left: 220px;
+        }
+
+        &__bid {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
