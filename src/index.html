@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,7 +33,10 @@
                         </li>
                     </ul>
                 </nav>
-                <button class="header__button">Вход в кабинет</button>
+                <div class="header__button">
+                    <button class="header__button--in">Вход в кабинет</button>
+                </div>
+
             </div>
         </div>
     </header>
@@ -47,10 +50,12 @@
                         <h2 class="test__title">Тестовое задание для <span class="test__title--highlight">самого лучшего</span> верстальщика</h2>
                         <div class="test__info">
                             <div class="info__price">
-                                <h4 class="price__title">Низкий оргвзнос</h4>
-                                <div class="price__circle">
-                                    <div class="price__disk">
-                                        <div class="price__number">30 <span class="price__ruble">&#8381;</span></div>
+                                <div class="info__block">
+                                    <h4 class="price__title">Низкий оргвзнос</h4>
+                                    <div class="price__circle">
+                                        <div class="price__disk">
+                                            <div class="price__number">30 <span class="price__ruble">&#8381;</span></div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="price__cross"></div>
@@ -59,25 +64,24 @@
                                 </div>
                             </div>
                             <div class="info__univer">
-                                <div class="info__students">
-                                    <h4 class="info__title">Ученикам</h4>
-                                    <p class="info__subtitle">Конкурс по 16 предметам</p>
-                                    <p class="info__subtitle">Доступные задания для всех учеников</p>
-                                    <p class="info__subtitle">Бесплатные дипломы и сертификаты</p>
-                                </div>
-                                <div class="info__teacher">
-                                    <h4 class="info__title">Учителям</h4>
-                                    <p class="info__subtitle">Бесплатные свидетельства</p>
-                                    <p class="info__subtitle">Бесплатные благодарности</p>
-                                    <p class="info__subtitle">Простое участие</p>
-                                </div>
+                                <ul class="info__students">
+                                    <li class="info__title">Ученикам</li>
+                                    <li class="info__subtitle">Конкурс по 16 предметам</li>
+                                    <li class="info__subtitle">Доступные задания для всех учеников</li>
+                                    <li class="info__subtitle">Бесплатные дипломы и сертификаты</li>
+                                </ul>
+                                <ul class="info__teacher">
+                                    <li class="info__title">Учителям</li>
+                                    <li class="info__subtitle">Бесплатные свидетельства</li>
+                                    <li class="info__subtitle">Бесплатные благодарности</li>
+                                    <li class="info__subtitle">Простое участие</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                     <div class="test__picture">
                         <div class="test__42"></div>
                         <img class="test__students" src="./assets/img/students.png" alt="students">
-                        <img class="test__target" src="./assets//img/target.png" alt="target">
                         <div class="test__43"></div>
                     </div>
                 </div>

@@ -1,9 +1,8 @@
 .menu {
 
-    width: 695px;
     display: flex;
     justify-content: space-between;
-    margin-top: 27px;
+    align-items: center;
     margin-right: 99px;
 
     &__lists {
@@ -18,8 +17,12 @@
     }
 
     &__item {
-        height: 34px;
         text-align: center;
+        padding-right: 64px;
+
+        &:last-child {
+            padding-right: 0;
+        }
     }
 
     &__link {
